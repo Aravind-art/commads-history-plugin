@@ -2,6 +2,9 @@
 
 A Terminator plugin that displays a searchable command history sidebar, making it easy to browse and re-execute previous commands.
 
+THANKS to almighty claude for generating this piece of code (Don't judge me!)
+Terminator is an open source terminal emulator that has many features. More details at [https://github.com/gnome-terminator/terminator](https://github.com/gnome-terminator/terminator)
+
 ## Features
 
 - **Command History Sidebar**: View shell command history in a dedicated window
@@ -25,11 +28,13 @@ A Terminator plugin that displays a searchable command history sidebar, making i
 ## Installation
 
 1. **Locate Terminator plugins directory**:
+
    ```bash
    mkdir -p ~/.config/terminator/plugins
    ```
 
 2. **Copy the plugin file**:
+
    ```bash
    cp history_sidebar.py ~/.config/terminator/plugins/
    ```
@@ -82,6 +87,7 @@ No manual configuration is required.
 ## Troubleshooting
 
 ### Sidebar doesn't appear
+
 - Ensure Terminator is restarted after installing the plugin
 - Check that Python GTK3 bindings are installed:
   ```bash
@@ -89,11 +95,13 @@ No manual configuration is required.
   ```
 
 ### Commands not appearing
+
 - Verify the shell history file exists in the expected location
 - Check file permissions (should be readable by your user)
 - Ensure you've executed commands in the current shell session
 
 ### Plugin not showing in preferences
+
 - Clear Terminator cache:
   ```bash
   rm -rf ~/.config/terminator/plugins/__pycache__
