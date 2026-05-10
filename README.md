@@ -118,7 +118,11 @@ To debug or modify the plugin:
 
 ## License
 
-This plugin is provided as-is for use with Terminator.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+**Copyright © 2026 Aravind-art**
+
+This software is provided "as is" for use with Terminator. You are free to use, modify, and distribute this plugin under the terms of the MIT License.
 
 ## Notes
 
